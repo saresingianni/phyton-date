@@ -67,20 +67,7 @@ il controllo del 'inserimento ven  contoller
      mmnmnm
      
     tt4t4t @GetMapping("/showUtenti")
-    public ModelAndView showUtenti() {
-
-        List < QuintoPiano > quintopianoU = quintoPianoRepository.findAll();
-
-        Map < String, Object > params = new HashMap < String, Object > ();
-        params.put("quintopianoU", quintopianoU);
-
-        return new ModelAndView("showUtenti", params);
-    } 
-    gono inserite  tramite definizioni
-
-
-
- * def is_size(check_input,size_menu):<br>
+    * def is_size(check_input,size_menu):<br>
  '''<br>
  funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta<br>
  return : bool<br>
@@ -152,6 +139,11 @@ il controllo del 'inserimento ven  contoller
  
 
 
+    gono inserite  tramite definizioni
+
+
+
+ 
 chiamata alla lista che viene fornita nel metodo 
   
   
