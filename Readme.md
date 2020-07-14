@@ -17,7 +17,7 @@
  *  Selezionandouno stato selezionato interroghiamo il file che ci viene ritornato dalla seguente pagina web
  *  "https://giorni-festivi.eu"
  verrà preso e processato.
- * la prima cosa che fa è quello di controllare inserimento corretto della opzione pi della data
+ * la prima cosa che fa è quello di controllare inserimento corretto della opzione di scelata e della formattazione della data
 
  <p align="left">
   <img src="foto/foto3.jpg" width="350" title="controllo">
@@ -39,7 +39,6 @@ si esce dal programma premendo q
 
 C:\Users\Gianni>pip list
  *  Package         Version
- *  --------------- ---------
  *  altgraph        0.17
  *  arrow           0.14.7
  *  certifi         2020.6.20
@@ -64,30 +63,78 @@ C:\Users\Gianni>pip list
 
 
 l'innesco nel codice ftl avviene trsmite  in questo porzioni di codice
+il controllo del 'inserimento vengono inserite  tramite definizioni
 
- <#list quintopianoU as quintopiano>
-                
-                    <tr class="gradeX">
-                                <td class="center">${quintopiano.cognome}</td>
-                                <td class="center">${quintopiano.nome}</td>
-                                <td class="center">${quintopiano.telefono}</td>
-                                <td class="center">${quintopiano.cellulare}</td>
-                                <td class="center">${quintopiano.genere}</td>
-                                <td class="center">${quintopiano.emailId}</td>
-                                 <td>
-                                 <#assign testFoto2="${quintopiano.foto}">
-                                 <#if testFoto2?has_content>
-                                 <img class="center" src="data:image/png;base64,${quintopiano.foto}">
-                                 <#else>
-                                 </#if>
-                                 </td>
-                                  <td class="center">${quintopiano.path}</td>
-                          </tr>
-                     </#list>
-                     
-                     
-                     
-notiamo un if che serve per togliere record vuoti
+def is_size(check_input,size_menu):
+    '''
+   funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta
+    return : bool
+    '''
+    #print(repr(check_input))
+    #print(repr(size_menu))
+    if check_input < size_menu :
+        return True
+    return False
+
+
+def is_digit(check_input):
+    '''
+    function controlla se hai digitato un numero
+    return : bool
+    '''
+    if check_input.isdigit():
+        return True
+    return False
+
+def is_string_only(check_input):
+    '''
+    function controlla se hai inserito solo delle lettere
+    return : bool
+    '''    
+    if check_input.isalpha():
+        return True
+    return False
+
+def is_string_with_space(check_input):
+    '''
+    function controlla se hai inserito degli spazi
+    return : bool
+    '''   
+    valid = False
+    if ' ' in check_input:
+        for char in check_input:
+            if char.isdigit():
+                valid = False
+            elif char.isalpha() or char.isspace():
+                valid = True
+    return valid
+
+def is_string_or_num(check_input):
+    '''
+    function controlla se hai inserito lettere  eumeri
+    return : bool
+    '''       
+    if check_input.isalnum():
+        return True
+    return False
+
+def is_float(check_input):
+    '''
+    function cotrolla se hai inserito virgole mobili
+    return : bool
+    '''   
+    if '.' in check_input:
+        split_number = check_input.split('.')
+        if len(split_number) == 2 and split_number[0].isdigit() and split_number[1].isdigit():
+                return True
+    return False
+
+
+differenza di date
+def diff_dates(date1, date2):
+    #print ("diff_dates")
+    return abs(date2-date1).days
+ 
 
 
 chiamata alla lista che viene fornita nel metodo 
