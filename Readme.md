@@ -88,6 +88,56 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
     
    
 * Tramite un request carichiamo il file calendairio
+testo = requests.get("https://giorni-festivi.eu/ical/"+stati_list[int(user_input)]+"/"+str(anno_check)).text
+               
+                trovato_giorno_festivo=False;
+                trovato_giorno_lavorativo=False;
+               
+                #print ("testo")
+                #print (testo)
+                #print ("***********")
+                gcal = Calendar.from_ical(testo)
+                size=0
+                for component in gcal.walk():
+                    if component.name == "VEVENT":
+                        size=size+1
+                #        print (str(size)+" "+component.name)
+                #        gcal = Calendar.from_ical(testo)
+               
+                indice=0
+               
+                
+                
+                for component in gcal.walk():
+
+                 if component.name == "VEVENT":
+
+                    indice=indice+1
+                    descrizione = component.get('SUMMARY')
+                    #print(descrizione)
+                    date_start = component.get('DTSTART')
+                    #print (date_start.to_ical())
+                    date_end1 = component.get('DTEND')
+                    #print (date_end1.to_ical())
+                    date_time = component.get('DTSTAMP')
+                    #print (date_time.to_ical())
+                   
+                    mese_check=date_start.dt.month
+                    giorno_check=date_start.dt.day
+                    #print (trovato_festivita)
+
+
+                   
+                    #main_festivita(indice,size,
+                    #               trovato_giorno_festivo,trovato_giorno_lavorativo,
+                    #               anno_check,mese_check,giorno_check,anno_check,
+                    #               int(month),int(day),int(year),
+                    #               descrizione,stati_list[int(user_input)])
+                    main_festivita(indice,size,
+                                   trovato_giorno_festivo,trovato_giorno_lavorativo,
+                                   anno_check,mese_check,giorno_check,anno_check,
+                                   int(month_me),int(day_me),int(year),
+                                   descrizione,stati_list[int(user_input)]) 
 
 
     
