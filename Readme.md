@@ -1,8 +1,9 @@
 
-# Confronto di una data nel formato giorno/mese ndl anno attuale
+# Confronto di una data nel formato giorno/mese del anno attuale
 
-### Inserisco una data nel formato dd/mm su una lista di stati per cercare se quella data appartiene ad una festività o ad anniversario di quello stato indica altresi
-l'appartenenza del giorno della settimana ad esempio di "Sabato" o di "Domenica"
+### Inserisco una data nel formato dd/mm su una scelata di stati per cercare se quella data appartiene ad una festività o ad anniversario dello stato selezionato 
+### indica altresi
+###l'appartenenza del giorno della settimana ad esempio di "Sabato" o di "Domenica"
 
 
  
