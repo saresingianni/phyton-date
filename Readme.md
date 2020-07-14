@@ -1,8 +1,8 @@
 
-# Inserisco una data per cercare ina lista di stati le corrispodenze degli anniversari di quel stato e se quella data è un fwstivo oppure no
+# Confronto una data nel anno attuale Tra diversi stati 
 
-### La parte orginale della demo dove ho preso spunto lo trovi qui sotto 
-per vedere gli screen shot se siamo in ambiente di sviuluppo occorre aprirla in un altra finestra. 
+### Inserisco una data per cercare ina lista di stati le corrispodenze degli anniversari di quel stato e se quella data è un fwstivo oppure no
+
  
  * [Foto della pagina iniziale demo donwload (salva oggetto con nome) ](src/main/resources/pagine/paginauno.jpg))
  
