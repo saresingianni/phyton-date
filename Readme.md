@@ -80,7 +80,16 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
    
     
     
-    la parte per la costursiobne della tabella avviene
+    def is_size(check_input,size_menu):
+    '''
+    funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta
+    '''
+    #print(repr(check_input))
+    #print(repr(size_menu))
+    if check_input < size_menu :
+        return True
+      return False
+    
     
     
    
