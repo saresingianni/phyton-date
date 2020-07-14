@@ -36,7 +36,7 @@ si esce dal programma premendo q
 ### Librerie Aggiunte in Phton nel progetto
  
  
-<p align="left">
+
 C:\Users\Gianni>pip list
  *  Package         Version
  *  --------------- ---------
@@ -61,7 +61,7 @@ C:\Users\Gianni>pip list
  *  six             1.15.0
  *  TatSu           5.5.0
  *  urllib3         1.25.9
- </p>
+
 
 l'innesco nel codice ftl avviene trsmite  in questo porzioni di codice
 
