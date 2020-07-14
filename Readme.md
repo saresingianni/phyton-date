@@ -88,10 +88,11 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
     
    
 * Tramite un request carichiamo il file calendairio
-testo = requests.get("https://giorni-festivi.eu/ical/"+stati_list[int(user_input)]+"/"+str(anno_check)).text
+
                
-                trovato_giorno_festivo=False;
-                trovato_giorno_lavorativo=False;
+               testo = requests.get("https://giorni-festivi.eu/ical/"+stati_list[int(user_input)]+"/"+str(anno_check)).text
+               trovato_giorno_festivo=False;
+               trovato_giorno_lavorativo=False;
                
                 #print ("testo")
                 #print (testo)
