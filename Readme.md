@@ -130,7 +130,7 @@ il controllo del 'inserimento vengono inserite  tramite definizioni
       return False<br>
 
 
- differenza di date<br>
+  * differenza di date<br>
   def diff_dates(date1, date2):<br>
       #print ("diff_dates")<br>
       return abs(date2-date1).days<br>
