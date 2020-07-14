@@ -6,12 +6,12 @@
 
 
  <p align="left">
-  <img src="foto/foto1.jpg"  title="console del programma">
+  <img src="foto/foto1.jpg" width="600" title="console del programma">
 </p>
   *  come si nota abbiamo delle scelte tramite questo menu 
 
  <p align="left">
-  <img src="foto/foto2.jpg"  title="opzione di scelta">
+  <img src="foto/foto2.jpg"  width="600" title="opzione di scelta">
 </p>
 
  *  Selezionandouno stato selezionato interroghiamo il file che ci viene ritornato dalla seguente pagina web
@@ -20,7 +20,7 @@
  * la prima cosa che fa è quello di controllare inserimento corretto della opzione di scelata e della formattazione della data
 
  <p align="left">
-  <img src="foto/foto3.jpg" title="controllo">
+  <img src="foto/foto3.jpg"  width="600" title="controllo">
 </p>
 
 *   una volta controllato parte un ciclo che recupera le eventuali occorrenze con una festivita nazionale
@@ -28,7 +28,7 @@
  feriale
 
  <p align="left">
-  <img src="foto/foto4.jpg"  title="opzione di scelta">
+  <img src="foto/foto4.jpg"   width="600" title="opzione di scelta">
 </p>
 
 si esce dal programma premendo q
