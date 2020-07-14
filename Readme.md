@@ -119,7 +119,7 @@ il controllo del 'inserimento vengono inserite  tramite definizioni
      return False<br>
 
  * def is_float(check_input):<br>
-      '''<br>
+      '''<br>  
       function cotrolla se hai inserito virgole mobili<br>
       return : bool<br>
       '''   <br>
