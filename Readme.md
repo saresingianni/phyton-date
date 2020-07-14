@@ -1,8 +1,8 @@
 
-# Confronto di una data nel formato giorno/mese del anno attuale
+# Confronto di una data nel formato giorno/mese del anno attuale Utilizzando Pyton
 
 ### Inserisco una data nel formato dd/mm su una scelta di stati per cercare se quella data appartiene ad una festività o ad anniversario 
- *  Indica l'appartenenza del giorno della settimana ad esempio "Sabato" o di "Domenica" o "Lunedi"
+ *  Indica il giorno della settimana ad esempio "Sabato" o di "Domenica" o "Lunedi"
 
 
  
