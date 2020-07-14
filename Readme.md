@@ -65,32 +65,6 @@ C:\Users\Gianni>pip list
 
 Esistono varie definizioni per il controllo dell'inserimento delle date e sulla digitazione corretta delle scelte sul menu
    
-     
-   def is_size(check_input,size_menu):
-    '''
-    funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta
-    return : bool
-    '''
-    #print(repr(check_input))
-    #print(repr(size_menu))
-    if check_input < size_menu :
-        return True
-    return False
-    def is_digit(check_input):
-    '''
-    function che controlla se la stringa digitata e un intero
-    return : bool
-    '''
-    if check_input.isdigit():
-        return True
-    return False
-    
-    
-    
-
-   
-    
-    
     def is_size(check_input,size_menu):
     '''
     funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta
@@ -100,6 +74,15 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
     if check_input < size_menu :
         return True
       return False
+      
+      def is_digit(check_input):
+      '''
+      function che controlla se la stringa digitata e un intero
+      bool
+    '''
+    if check_input.isdigit():
+      return True
+     return False
     
     
     
