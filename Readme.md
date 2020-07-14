@@ -2,7 +2,7 @@
 # Confronto di una data nel formato giorno/mese del anno attuale Utilizzando Pyhton 3.8
 
 ### Inserisco una data nel formato dd/mm su una scelta di stati per cercare se quella data appartiene ad una festività o ad anniversario 
- *  Indica il giorno della settimana ad esempio "Sabato" o di "Domenica" o "Lunedi"
+ *  Indica il giorno della settimana ad esempio "Sabato" o "Domenica" o "Lunedi"
 
 
  
