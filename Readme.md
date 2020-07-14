@@ -6,43 +6,32 @@
 
 
  <p align="left">
-  <img src="foto/foto1.jpg" width="350" title="console programma">
-
+  <img src="foto/foto1.jpg" width="350" title="console del programma">
 </p>
- 
-
-
-* [Foto pagina utenti 5 quinto piano  donwload (salva oggetto con nome) ](src/main/resources/pagine/paginadue.jpg)
+  *  come si nota abbiamo delle scelte tramite questo menu utilizzando le opzioni corrispodenti
 
  <p align="left">
-  <img src="src/main/resources/pagine/paginadue.jpg" width="350" title="Foto elenco quinto pisno  demo">
-
+  <img src="foto/foto2.jpg" width="350" title="opzione di scelta">
 </p>
 
-* [Foto demo applicattivo  demo donwload (salva oggetto con nome)](src/main/resources/pagine/paginatre.jpg)
- 
- 
+ *  Selezionando lo stato scelto interroghiamo il file che ci ritrna dalla seguente pagina web
+ *  "https://giorni-festivi.eu"
+ viene preso e processato.
+ la prima cosa che fa è quello di controllare inserimento corretto della opzione pi della data
+
  <p align="left">
-  <img src="src/main/resources/pagine/paginatre.jpg" width="350" title="Foto elenco test ">
-
+  <img src="foto/foto3.jpg" width="350" title="opzione di scelta">
 </p>
 
-* [Foto demo applicattivo galleria carosello cliccando sulla foto donwload (salva oggetto con nome)](src/main/resources/pagine/paginaquattro.jpg)
- 
- 
+*   una volta controllato parte un ciclo che recupera le eventuali occorenza con una festivita nazionale
+ se la trova viene sttampato l'occorenza
+
  <p align="left">
-  <img src="src/main/resources/pagine/paginaquattro.jpg" width="350" title="Foto elenco test ">
-
+  <img src="foto/foto4.jpg" width="350" title="opzione di scelta">
 </p>
 
+si esce dal programma premendo q
 
-
-</br>
-
-
-### Il risultato  si chiama EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar 
-
-</br>
 
 
 [EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar (salva oggetto con nome)](https://github.com/saresingianni/EsempioFreeMarkerH2Test/blob/master/EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar)
