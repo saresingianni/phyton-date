@@ -67,10 +67,10 @@ il controllo del 'inserimento ven  contoller
      mmnmnm
      
     def is_size(check_input,size_menu):<br>
-    * 
+     funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta<br>
+ return : bool
  '''<br>
- funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta<br>
- return : bool<br>
+<br>
  '''<br>
  #print(repr(check_input))<br>
  #print(repr(size_menu))<br>
