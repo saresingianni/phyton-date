@@ -8,23 +8,24 @@
  <p align="left">
   <img src="foto/foto1.jpg" width="350" title="console del programma">
 </p>
-  *  come si nota abbiamo delle scelte tramite questo menu utilizzando le opzioni corrispodenti
+  *  come si nota abbiamo delle scelte tramite questo menu 
 
  <p align="left">
   <img src="foto/foto2.jpg" width="350" title="opzione di scelta">
 </p>
 
- *  Selezionando lo stato scelto interroghiamo il file che ci ritrna dalla seguente pagina web
+ *  Selezionandouno stato selezionato interroghiamo il file che ci viene ritornato dalla seguente pagina web
  *  "https://giorni-festivi.eu"
- viene preso e processato.
- la prima cosa che fa è quello di controllare inserimento corretto della opzione pi della data
+ verrà preso e processato.
+ * la prima cosa che fa è quello di controllare inserimento corretto della opzione pi della data
 
  <p align="left">
-  <img src="foto/foto3.jpg" width="350" title="opzione di scelta">
+  <img src="foto/foto3.jpg" width="350" title="controllo">
 </p>
 
-*   una volta controllato parte un ciclo che recupera le eventuali occorenza con una festivita nazionale
- se la trova viene sttampato l'occorenza
+*   una volta controllato parte un ciclo che recupera le eventuali occorrenze con una festivita nazionale
+ se la trova viene sttampato l'occorenza viene indicata se il giorno trattato è di Sabato o di Domenica o un giorno 
+ feriale
 
  <p align="left">
   <img src="foto/foto4.jpg" width="350" title="opzione di scelta">
@@ -32,38 +33,33 @@
 
 si esce dal programma premendo q
 
-
-
-[EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar (salva oggetto con nome)](https://github.com/saresingianni/EsempioFreeMarkerH2Test/blob/master/EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar)
-
-il comando avendo a dispozione java dalla versione 1.8 � nel prompt posizionato in radice �
-
-java -jar EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar 
-
-nel browser [http://localhost:8080](http://localhost:8080)
-</br>
-### Tecnologie impiegate per il Frontend  e Box Office di Venezia
-
-* [frontend dell'esempio risulta integrato con il framewrok inspinia  ](http://webapplayers.com/inspinia_admin-v2.9.3/)
-
-
-* [l'esempio di utlizzo risulta il  box office di Venezia  ](https://trade.veneziaunica.it/vu-bo-spring/login)
-
-
-* [help on line spiegazione ed utilizzo del box Office l'utilità e di erogare biglietti - Voucher studiato per agenzie di viaggio risulta presente la funzione pagamento elettronico ](https://trade.veneziaunica.it/vu-bo-spring/resources/help/it/trade_def/trade.html)
-
-
-
-* [i file freemarker sono presenti nella cartella  templates.ftl ]( https://freemarker.apache.org/)
-
-* Vengono dichiarate in application.properties per sping boot
-
-* spring.freemarker.template-loader-path: classpath:/templates
-
-* spring.freemarker.suffix: .ftl
-
-* [installazione  maven nel pom ]( https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-freemarker)
-
+### Librerie Aggiunte in Phton nel progetto
+ <p align="left">
+C:\Users\Gianni>pip list
+Package         Version
+--------------- ---------
+altgraph        0.17
+arrow           0.14.7
+certifi         2020.6.20
+chardet         3.0.4
+future          0.18.2
+icalendar       4.0.6
+ics             0.7
+idna            2.10
+numpy           1.19.0
+pandas          1.0.5
+pefile          2019.4.18
+pip             19.2.3
+PyInstaller     3.6
+python-dateutil 2.8.1
+pytz            2020.1
+pywin32-ctypes  0.2.0
+requests        2.24.0
+setuptools      41.2.0
+six             1.15.0
+TatSu           5.5.0
+urllib3         1.25.9
+</p>
 
 l'innesco nel codice ftl avviene trsmite  in questo porzioni di codice
 
