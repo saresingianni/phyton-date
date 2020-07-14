@@ -144,6 +144,7 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
     
 
 
-* [ qui per il donwload del file opzione Salva oggetto con nome]( target/EsempioFreeMarkerH2-0.0.1-SNAPSHOT.jar)
+* [ qui per il donwload del sorgente]( test_cal.py)
+* [ qui per il donwload del eseguibile per windows]( test_cal.exe)
 
 
