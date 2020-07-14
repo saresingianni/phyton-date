@@ -34,32 +34,34 @@
 si esce dal programma premendo q
 
 ### Librerie Aggiunte in Phton nel progetto
- <p align="left">
+ 
+ 
+<p align="left">
 C:\Users\Gianni>pip list
-Package         Version
---------------- ---------
-altgraph        0.17
-arrow           0.14.7
-certifi         2020.6.20
-chardet         3.0.4
-future          0.18.2
-icalendar       4.0.6
-ics             0.7
-idna            2.10
-numpy           1.19.0
-pandas          1.0.5
-pefile          2019.4.18
-pip             19.2.3
-PyInstaller     3.6
-python-dateutil 2.8.1
-pytz            2020.1
-pywin32-ctypes  0.2.0
-requests        2.24.0
-setuptools      41.2.0
-six             1.15.0
-TatSu           5.5.0
-urllib3         1.25.9
-</p>
+ *  Package         Version
+ *  --------------- ---------
+ *  altgraph        0.17
+ *  arrow           0.14.7
+ *  certifi         2020.6.20
+ *  chardet         3.0.4
+ *  future          0.18.2
+ *  icalendar       4.0.6
+ *  ics             0.7
+ *  idna            2.10
+ *  numpy           1.19.0
+ *  pandas          1.0.5
+ *  pefile          2019.4.18
+ *  pip             19.2.3
+ *  PyInstaller     3.6
+ *  python-dateutil 2.8.1
+ *  pytz            2020.1
+ *  pywin32-ctypes  0.2.0
+ *  requests        2.24.0
+ *  setuptools      41.2.0
+ *  six             1.15.0
+ *  TatSu           5.5.0
+ *  urllib3         1.25.9
+ </p>
 
 l'innesco nel codice ftl avviene trsmite  in questo porzioni di codice
 
