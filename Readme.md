@@ -5,11 +5,8 @@
  *  Indica il giorno della settimana ad esempio "Sabato" o "Domenica" o "Lunedi"
 
 
- 
- * [Foto della pagina iniziale demo donwload (salva oggetto con nome) ](src/main/resources/pagine/paginauno.jpg))
- 
  <p align="left">
-  <img src="foto/foto1.jpg" width="350" title="Foto della pagina iniziale demo">
+  <img src="foto/foto1.jpg" width="350" title="console programma">
 
 </p>
  
