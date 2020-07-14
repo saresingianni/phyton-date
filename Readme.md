@@ -76,6 +76,17 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
     if check_input < size_menu :
         return True
     return False
+    def is_digit(check_input):
+    '''
+    function che controlla se la stringa digitata e un intero
+    return : bool
+    '''
+    if check_input.isdigit():
+        return True
+    return False
+    
+    
+    
 
    
     
