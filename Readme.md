@@ -1,7 +1,9 @@
 
-# Confronto una data nel anno attuale Tra diversi stati 
+# Confronto di una data nel formato Giorno/Mese nel anno attuale
 
-### Inserisco una data per cercare ina lista di stati le corrispodenze degli anniversari di quel stato e se quella data è un fwstivo oppure no
+### Inserisco una data nel formato dd/mm su una lista di stati per cercare se quella data appartiene aa una festività o un anniversario nella sua Storia indica altresi
+l'appartenenza del giorno della settimana 
+oltre a questa corrispodenza il programma indica se tale data puo essere di "Sabato" o di "Domenica" 
 
  
  * [Foto della pagina iniziale demo donwload (salva oggetto con nome) ](src/main/resources/pagine/paginauno.jpg))
