@@ -63,103 +63,21 @@ C:\Users\Gianni>pip list
 
 
 
-il controllo del 'inserimento ven  contoller
-     mmnmnm
+Esistono varie definizioni per il controllo dell'inserimento delle date e sulla digitazione corretta delle scelte sul menu
+   
      
-    def is_size(check_input,size_menu):<br>
-     funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta<br>
- return : bool
- '''<br>
-<br>
- '''<br>
- #print(repr(check_input))<br>
- #print(repr(size_menu))<br>
- if check_input < size_menu :<br>
-          return True<br>
-      return False<br>
+   def is_size(check_input,size_menu):
+    '''
+    funzione che controlla se hai inserito un numero piu grande delle opzioni di scelta
+    return : bool
+    '''
+    #print(repr(check_input))
+    #print(repr(size_menu))
+    if check_input < size_menu :
+        return True
+    return False
 
-
- * def is_digit(check_input):<br>
- '''<br>
- function controlla se hai digitato un numero<br>
- return : bool<br>
- '''<br>
- if check_input.isdigit():<br>
-         return True<br>
-    return False<br>
-
- * def is_string_only(check_input):<br>
- '''<br>
-  function controlla se hai inserito solo delle letter<br>
-  '''  return : bool<br>
- ''' <br>      
-      if check_input.isalpha():<br>
-          return True<br>
-      return False<br>
-
- * def is_string_with_space(check_input):<br>
-      '''<br>
-      function controlla se hai inserito degli spazi<br>
-      return : bool<br>
-      ''' <br>  
-      valid = False<br>
-      if ' ' in check_input:<br>
-          for char in check_input:<br>
-              if char.isdigit():<br>
-                  valid = False<br>
-              elif char.isalpha() or char.isspace():<br>
-                  valid = True<br>
-  return valid<br>
-
- * def is_string_or_num(check_input):<br>
-     '''<br>
-     function controlla se hai inserito lettere  eumeri<br>
-     return : bool<br>
-     '''<br>      
-     if check_input.isalnum():<br>
-          return True<br>
-     return False<br>
-
- * def is_float(check_input):<br>
-      '''<br>  
-      function cotrolla se hai inserito virgole mobili<br>
-      return : bool<br>
-      '''   <br>
-      if '.' in check_input:<br>
-          split_number = check_input.split('.')<br>
-          if len(split_number) == 2 and split_number[0].isdigit() and split_number[1].isdigit():<br>
-                  return True<br>
-      return False<br>
-
-
-  * differenza di date<br>
-  def diff_dates(date1, date2):<br>
-      #print ("diff_dates")<br>
-      return abs(date2-date1).days<br>
- 
-
-
-    gono inserite  tramite definizioni
-
-
-
- 
-chiamata alla lista che viene fornita nel metodo 
-  
-  
-  contoller
-     mmnmnm
-     
-    tt4t4t @GetMapping("/showUtenti")
-    public ModelAndView showUtenti() {
-
-        List < QuintoPiano > quintopianoU = quintoPianoRepository.findAll();
-
-        Map < String, Object > params = new HashMap < String, Object > ();
-        params.put("quintopianoU", quintopianoU);
-
-        return new ModelAndView("showUtenti", params);
-    } 
+   
     
     
     la parte per la costursiobne della tabella avviene
