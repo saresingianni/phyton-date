@@ -144,7 +144,11 @@ Esistono varie definizioni per il controllo dell'inserimento delle date e sulla 
     
 
 
-* [ qui per il donwload del sorgente]( test_cal.py)
-* [ qui per il donwload del eseguibile per windows]( test_cal.exe)
+* [ qui per il donwload del sorgente prima versione]( test_cal.py)
+* [ qui per il donwload del eseguibile per windows prima versione]( test_cal.exe)
+* [ qui per il donwload del sorgente seconda versione]( test_cal2.py)
+* [ qui per il donwload del eseguibile per windows seconda versione]( test_cal2.exe)
+
+
 
 
